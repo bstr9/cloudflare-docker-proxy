@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "cloudflare-docker-proxy.baojiwei.workers.dev": "https://registry-cdn.uii-ai.com"
+  "cloudflare-docker-proxy.baojiwei.workers.dev": "https://106.15.194.45"
 };
 
 function routeByHosts(host) {
