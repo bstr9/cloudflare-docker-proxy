@@ -20,6 +20,7 @@ routes = [
   { pattern = "k8s.mymirror.com", custom_domain = true },
   { pattern = "ghcr.mymirror.com", custom_domain = true },
   { pattern = "cloudsmith.mymirror.com", custom_domain = true },
+  { pattern = "cloudflare-docker-proxy.baojiwei.workers.dev", custom_domain = true },
 ]
 
 [env.production.vars]
